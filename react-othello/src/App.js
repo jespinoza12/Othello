@@ -28,7 +28,7 @@ class App extends Component {
 
     return (
       <div className="App">
-      <img src={Logo} alt="reversi"/>
+      <img src={Logo} alt="reversi" className='size'/>
       {game}
       {gameOver}
       </div>
